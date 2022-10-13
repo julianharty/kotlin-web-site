@@ -3640,6 +3640,11 @@ debug@^4.1.0:
   dependencies:
     ms "2.1.2"
 
+debug@~0.7.2:
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-0.7.4.tgz#06e1ea8082c2cb14e39806e22e2f6f757f92af39"
+  integrity sha512-EohAb3+DSHSGx8carOSKJe8G0ayV5/i609OD0J2orCkuyae7SyZSz2aoLmQF2s0Pj5gITDebwPH7GFBlqOUQ1Q==
+
 decamelize-keys@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/decamelize-keys/-/decamelize-keys-1.1.0.tgz#d171a87933252807eb3cb61dc1c1445d078df2d9"
@@ -5744,6 +5749,13 @@ jsprim@^1.2.2:
   dependencies:
     array-includes "^3.1.4"
     object.assign "^4.1.2"
+
+key-value-parser@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/key-value-parser/-/key-value-parser-0.2.0.tgz#16950b12aefe9da9f3ac6f04d49e6b9388cdf99c"
+  integrity sha512-jhvxE+vfAmmlZ3vCTFta1mw5rLIhhGkVGqGOWQVa12dO8MrQrqK3+JzPJ1SyGWe3dE6UjZj2A7u/EhD+hHCJkA==
+  dependencies:
+    debug "~0.7.2"
 
 keycode@^2.1.7:
   version "2.2.1"
